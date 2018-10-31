@@ -10,6 +10,7 @@ exports.handler = (event, context, callback) => {
     // This variable can be updated and checked in to your repository 
     // to update the number of SAM squirrels on the screen.
     var samCount = 10;
+    console.log("this is a new change, lets see its effect in the CodePipeline")
 
     // Or you can update your Lambda function's environment variable.
     var samMultiplier = process.env.SAM_MULTIPLIER || 1;
